@@ -1,0 +1,11 @@
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\bin\Debug\netcoreapp2.0\WebApp.deps.json
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\bin\Debug\netcoreapp2.0\WebApp.runtimeconfig.json
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\bin\Debug\netcoreapp2.0\WebApp.runtimeconfig.dev.json
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\bin\Debug\netcoreapp2.0\WebApp.dll
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\bin\Debug\netcoreapp2.0\WebApp.pdb
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\obj\Debug\netcoreapp2.0\WebApp.csprojAssemblyReference.cache
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\obj\Debug\netcoreapp2.0\WebApp.csproj.CoreCompileInputs.cache
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfoInputs.cache
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfo.cs
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\obj\Debug\netcoreapp2.0\WebApp.dll
+c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\obj\Debug\netcoreapp2.0\WebApp.pdb
