@@ -34,5 +34,6 @@ namespace WebApp.DAO
         }
 
         //Executa "Add-Migration MyWebAppMigration" para habilitar o recurso de migrations no projeto
+        // "Update-Database" atualiza o banco de acordo com a ultima migration adicionada
     }
 }

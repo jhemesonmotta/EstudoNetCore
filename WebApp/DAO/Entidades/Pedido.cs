@@ -7,6 +7,6 @@ namespace WebApp.Entidades
     {
         public int Id { get; set; }
         public DateTime DataPedido { get; set; }
-        public ICollection<Pedido> Pedidos { get; set; }
+        public ICollection<ItemPedido> ItensPedidos { get; set; }
     }
 }
