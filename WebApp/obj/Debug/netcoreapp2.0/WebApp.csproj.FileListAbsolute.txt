@@ -9,3 +9,13 @@ c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\obj\Debug\netcoreapp2.0\We
 c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfo.cs
 c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\obj\Debug\netcoreapp2.0\WebApp.dll
 c:\users\jhemeson.mota\Source\Repos\MySolution\WebApp\obj\Debug\netcoreapp2.0\WebApp.pdb
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\bin\Debug\netcoreapp2.0\WebApp.deps.json
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\bin\Debug\netcoreapp2.0\WebApp.runtimeconfig.json
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\bin\Debug\netcoreapp2.0\WebApp.runtimeconfig.dev.json
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\bin\Debug\netcoreapp2.0\WebApp.dll
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\bin\Debug\netcoreapp2.0\WebApp.pdb
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfoInputs.cache
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfo.cs
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.dll
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.pdb
