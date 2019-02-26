@@ -39,20 +39,20 @@ namespace WebApp
                                                                 b => b.MigrationsAssembly("WebApp")
                                                          )
                                                   );
+            // adicionando framework do ASP.NET MVC
+            services.AddMvc();
+
+            // mapeando interface... serve pra não precisar explicitar sua declaração
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            app.UseStaticFiles();
+            
+            // utilizar o mvc com uma rota padrão
+            app.UseMvcWithDefaultRoute();
         }
     }
 }

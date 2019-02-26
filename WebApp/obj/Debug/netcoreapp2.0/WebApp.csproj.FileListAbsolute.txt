@@ -19,3 +19,4 @@ C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\We
 C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfo.cs
 C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.dll
 C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.pdb
+C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.csprojAssemblyReference.cache
