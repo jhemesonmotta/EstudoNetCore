@@ -20,3 +20,14 @@ C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\We
 C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.dll
 C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.pdb
 C:\Users\jhemeson.mota\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.csprojAssemblyReference.cache
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\bin\Debug\netcoreapp2.0\WebApp.deps.json
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\bin\Debug\netcoreapp2.0\WebApp.runtimeconfig.json
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\bin\Debug\netcoreapp2.0\WebApp.runtimeconfig.dev.json
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\bin\Debug\netcoreapp2.0\WebApp.dll
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\bin\Debug\netcoreapp2.0\WebApp.pdb
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.csprojResolveAssemblyReference.cache
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfoInputs.cache
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfo.cs
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.dll
+C:\Users\jhemeson\Documents\EstudoNetCore\WebApp\obj\Debug\netcoreapp2.0\WebApp.pdb
