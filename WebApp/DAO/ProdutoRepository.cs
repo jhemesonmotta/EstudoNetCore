@@ -21,5 +21,16 @@ namespace WebApp.DAO
             // retorna todos os produtos da base de dados
             return _myWebAppContext.Produtos.ToList();
         }
+
+        public Produto ObterProdutoPorId(int id)
+        {
+            return _myWebAppContext.Produtos.FirstOrDefault(p => p.Id == id);
+        }
+
+        public void Salvar(Produto produto)
+        {
+            _myWebAppContext.Produtos.Add(produto);
+            _myWebAppContext.SaveChanges();
+        }
     }
 }

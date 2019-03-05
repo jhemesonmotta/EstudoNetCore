@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using WebApp.DAO;
+using WebApp.Entidades;
 
 namespace WebApp.Controllers
 {
@@ -20,6 +21,32 @@ namespace WebApp.Controllers
             try
             {
                 return Ok(_produtoRepository.ListarProdutos());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Erro: " + ex.Message);
+            }
+        }
+
+        [HttpGet("{id:int}")]
+        public IActionResult Get(int id) {
+            try
+            {
+                var produto = _produtoRepository.ObterProdutoPorId(id);
+                return Ok(produto);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Erro: " + ex.Message);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody]Produto produto) {
+            try
+            {
+                _produtoRepository.Salvar(produto);
+                return Created("/api/produto", produto);
             }
             catch (Exception ex)
             {
