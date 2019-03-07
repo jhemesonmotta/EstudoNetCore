@@ -27,7 +27,8 @@ namespace WebApp.Controllers
             // quando este controller receber uma requisição ele vai retornar uma view e renderizar uma página na tela
                 // passando como parâmetro o retorno do método de listar produtos
                 // minha variável "Model" na view é oq eu passar como parâmetros aqui
-            return View(_repository.ListarProdutos());
+            //return View(_repository.ListarProdutos());
+            return View();
         }
 
         //acessado pela rota /home/Obter

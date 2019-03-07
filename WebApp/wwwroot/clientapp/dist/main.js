@@ -1,35 +1,25 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ "./ClientApp/app/app-routing.module.ts":
-/*!*********************************************!*\
-  !*** ./ClientApp/app/app-routing.module.ts ***!
-  \*********************************************/
-/*! exports provided: AppRoutingModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./ClientApp/$$_lazy_route_resource lazy recursive":
+/*!****************************************************************!*\
+  !*** ./ClientApp/$$_lazy_route_resource lazy namespace object ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./ClientApp/node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./ClientApp/node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./ClientApp/node_modules/@angular/router/fesm5/router.js");
-
-
-
-var routes = [];
-var AppRoutingModule = /** @class */ (function () {
-    function AppRoutingModule() {
-    }
-    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
-            exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
-        })
-    ], AppRoutingModule);
-    return AppRoutingModule;
-}());
-
-
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./ClientApp/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
@@ -43,8 +33,8 @@ var AppRoutingModule = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./ClientApp/node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./ClientApp/node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 
 
 var AppComponent = /** @class */ (function () {
@@ -74,11 +64,11 @@ var AppComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./ClientApp/node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./ClientApp/node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./ClientApp/node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./ClientApp/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./ClientApp/app/app.component.ts");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./ClientApp/app/app.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 
 
 
@@ -90,14 +80,14 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]
+                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot([], { useHash: true, enableTracing: true })
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -144,8 +134,8 @@ var environment = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./ClientApp/node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./ClientApp/node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./ClientApp/app/app.module.ts");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./ClientApp/environments/environment.ts");
 
@@ -158,29 +148,6 @@ if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].produc
 Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
     .catch(function (err) { return console.error(err); });
 
-
-/***/ }),
-
-/***/ "./ClientApp/node_modules/@angular/core/fesm5 lazy recursive":
-/*!**************************************************************************!*\
-  !*** ./ClientApp/node_modules/@angular/core/fesm5 lazy namespace object ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncaught exception popping up in devtools
-	return Promise.resolve().then(function() {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "./ClientApp/node_modules/@angular/core/fesm5 lazy recursive";
 
 /***/ }),
 

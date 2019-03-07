@@ -6,19 +6,28 @@
     Layout = null;
 }
 
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>View</title>
 </head>
 <body>
-    <h2>Teste</h2>
+    <!--tag que representa o app.component-->
+    <app-root>
 
-    @foreach (var item in Model) {
-        <div>
-            @item.Nome
-        </div>
-    }
+    </app-root>
+
+    <!--xscripts do angula 7-->
+
+    <script src="~/clientapp/dist/polyfills.js"></script>
+    <script src="~/clientapp/dist/runtime.js"></script>
+    <script src="~/clientapp/dist/styles.js"></script>
+    <script src="~/clientapp/dist/vendor.js"></script>
+
+    <!--main js tem que estar em último-->
+    <script src="~/clientapp/dist/main.js"></script>
+
+    <!--fim dos scripts do angula 7-->
+
 </body>
 </html>
